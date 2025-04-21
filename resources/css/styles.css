@@ -7,7 +7,9 @@
 body {
     max-width: 2000px;
     background-color: white;
-    font-family: "Atkinson Hyperlegible", system-ui;  
+    font-style: normal;
+    font-family: halyard-display, sans-serif;
+    color: #004EBD;  
 }
 #toTopBtn {
     display: none;
@@ -40,35 +42,35 @@ body {
 
 h1 {
     font-size: 54px;
-    font-weight: 700;
-    color: black;
+    font-weight: 500;
+    color: #004EBD;
 }
 h2 {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 500;
 }
 h3 {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 300;
 }
 h4 {
     margin-bottom: 20px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
 }
 p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
 }
 ul {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
 }
 a {
-    color: black;
+    color: #004EBD;
 }
 a:hover {
-    color: black;
+    color: #004EBD;
 }
 
 /*<<<<<<<<      BOOTSTRAP CUSTOM     >>>>>>>>*/
@@ -140,14 +142,14 @@ a:hover {
     color: black;
 }
 .btn:hover {
-    background-color: blue;
-    border: solid 3px blue;
+    background-color: #004EBD;
+    border: solid 3px #004EBD;
     color: white;
 }
 .btn-dark {
     background-color: white;
-    border: solid 3px black;
-    color: black;
+    border: solid 3px #004EBD;
+    color: #004EBD;
 }
 
 /*<<<<<<<<<<     PROJECT TILES     >>>>>>>>>>*/
