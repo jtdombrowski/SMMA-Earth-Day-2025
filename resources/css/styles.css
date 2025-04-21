@@ -19,15 +19,15 @@ body {
     border: 3px solid;
     border-radius: 100px;
     background-color: white;
-    color: black;
+    color: #004EBD;
     cursor: pointer;
     padding: 10px; 
   }
   #toTopBtn:hover {
-    background-color: black;
+    background-color: #004EBD;
     color: white;
     border: 3px solid;
-    border-color: black;
+    border-color: #004EBD;
   }
   svg {
     width: 40px;
@@ -134,12 +134,12 @@ a:hover {
     border: none; 
 }
 .navbar-toggler-icon {
-    color: black;
+    color: #004EBD;
 }
 .btn-primary {
     background-color: white;
     border: solid 3px;
-    color: black;
+    color: #004EBD;
 }
 .btn:hover {
     background-color: #004EBD;
@@ -155,7 +155,7 @@ a:hover {
 /*<<<<<<<<<<     PROJECT TILES     >>>>>>>>>>*/
 
 .tile {
-    border: solid 0px black;
+    border: solid 0px #004EBD;
     position: relative;
     overflow: hidden;
     transition: border 1ms;
