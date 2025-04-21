@@ -1,0 +1,227 @@
+/*/////////////////////////////////////////////
+<                GLOBAL STYLES                >
+/////////////////////////////////////////////*/
+
+/*<<<<<<<<<<     PAGE STRUCTURE     >>>>>>>>>*/
+
+body {
+    max-width: 2000px;
+    background-color: white;
+    font-family: "Atkinson Hyperlegible", system-ui;  
+}
+#toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: 3px solid;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 10px; 
+  }
+  #toTopBtn:hover {
+    background-color: black;
+    color: white;
+    border: 3px solid;
+    border-color: black;
+  }
+  svg {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+  }
+  svg:hover {
+    fill: white;
+  }
+    
+/*<<<<<<<<<<<     TEXT STYLES     >>>>>>>>>>>*/
+
+h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: black;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+ul {
+    font-size: 18px;
+    font-weight: 400;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
+/*<<<<<<<<      BOOTSTRAP CUSTOM     >>>>>>>>*/
+
+.intro {
+    padding: 0 0 0 0;
+} 
+.navLogo {
+    height: 200px;
+    margin: 0 auto;
+}
+.row-spacer {
+    margin: 40px 20px;
+}
+.cStudy p {
+    margin: 0;
+}
+.cStudy img {
+    width: 100%;
+    min-height: 100%;
+}
+.img-left { 
+    object-position: left;
+}
+.img-right {
+    object-position: right;
+}
+
+/*<<<<<<      BOOTSTRAP OVERRIDES     >>>>>>>*/
+
+.col {
+    padding: 15px;
+}
+.navbar {
+    border-color: black;
+    border-bottom: 3px solid;
+}
+.navbar-brand {
+    color: black;
+    font-size: 24px;
+}
+.nav-link:hover {
+    color: black;
+    font-weight: 700;
+    transition: 
+        font-weight .25s;
+}
+.nav-link {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
+.navbar .nav-link.active {
+    color: black;
+    font-weight: 700;
+}
+.me-auto-left {
+    margin-left: auto;
+}
+.navbar-toggler {
+    border: none; 
+}
+.navbar-toggler-icon {
+    color: black;
+}
+.btn-primary {
+    background-color: white;
+    border: solid 3px;
+    color: black;
+}
+.btn:hover {
+    background-color: blue;
+    border: solid 3px blue;
+    color: white;
+}
+.btn-dark {
+    background-color: white;
+    border: solid 3px black;
+    color: black;
+}
+
+/*<<<<<<<<<<     PROJECT TILES     >>>>>>>>>>*/
+
+.tile {
+    border: solid 0px black;
+    position: relative;
+    overflow: hidden;
+    transition: border 1ms;
+}
+.tile img {
+    width: 100%;
+    min-height: 100%;
+}
+.tileCaption {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    padding: 8px 16px; 
+    transition: all 0.5s;
+    border: solid 3px black;
+    font-weight: 700;
+}
+.tileCaption .col {
+    padding: 0 15px;
+}
+.tileCaption p {
+    margin: 0;
+    font-size: 21px;
+}
+.serviceTag {
+    color: black;
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    padding: 15px;
+    transition: all 0.5s;
+    border-radius: 9px; 
+}
+.serviceTag p {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-radius: 9px; 
+    font-size: 18px;
+    font-weight: 700;
+}
+/*.tile:hover {
+    border: solid 3px black;
+}*/
+.tile:hover .tileCaption {
+    bottom: 0%;
+}
+.tile:hover .serviceTag {
+    top: 0%;
+}
+
+/*<<<<<<<<<<<      PROJECTS      >>>>>>>>>>>>*/
+
+.projTitle {
+    margin-bottom: 6rem;
+}
+.infoPanel {
+    padding: 1.5rem;
+    background-color: #f0f0f0;
+}
+.infoPanel p {
+    margin: 0;
+}
+.vPhoto img {
+    width: 100%;
+    min-height: 100%;
+}
+
+/*<<<<<<<<<<<<        END        >>>>>>>>>>>>*/
