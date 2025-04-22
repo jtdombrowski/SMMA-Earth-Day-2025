@@ -6,6 +6,7 @@
 
 body {
     max-width: 2000px;
+    margin: 0 5% 0 5%;
     background-color: white;
     font-style: normal;
     font-family: halyard-display, sans-serif;
@@ -150,6 +151,7 @@ a:hover {
     background-color: white;
     border: solid 3px #004EBD;
     color: #004EBD;
+    margin-bottom: 20px;
 }
 
 /*<<<<<<<<<<     PROJECT TILES     >>>>>>>>>>*/
