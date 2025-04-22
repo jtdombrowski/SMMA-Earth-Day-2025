@@ -47,8 +47,9 @@ h1 {
     color: #004EBD;
 }
 h2 {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
+    padding-right: 10px;
 }
 h3 {
     font-size: 24px;
@@ -84,7 +85,7 @@ a:hover {
     margin: 0 auto;
 }
 .row-spacer {
-    margin: 40px 20px;
+    margin: 40px 0px;
 }
 .cStudy p {
     margin: 0;
